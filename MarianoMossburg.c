@@ -60,6 +60,7 @@ int main(int argc, char **argv)
     waitTimeFCFS(arrival, numProcess, burst, waiting, turnaround);
     turnaroundTimeFCFS(arrival, numProcess, burst, waiting, turnaround);
 
+    //calling SJF functions
     printf("\n");
     printf("SJF -> Non-Preemptive:\n");
     executionOrderSJF(arrival, numProcess, burst);
